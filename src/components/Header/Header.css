@@ -1,0 +1,20 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 83px;
+  margin: 0 20px;
+}
+
+.logo {
+  width: 145px;
+}
+
+.link {
+  display: flex;
+  font-size: 12px;
+}
+
+.home-link {
+  margin-right: 10px;
+}

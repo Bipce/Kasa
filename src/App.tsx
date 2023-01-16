@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import Header from "./components/Header";
+import Header from "./components/Header/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Lodging from "./pages/Losging";
@@ -9,7 +9,7 @@ import Error from "./pages/Error";
 
 const App = () => {
   return (
-    <>
+    <div className="container">
       <Router>
         <Header />
         <Routes>
@@ -20,7 +20,7 @@ const App = () => {
         </Routes>
         <Footer />
       </Router>
-    </>
+    </div>
   );
 };
 
