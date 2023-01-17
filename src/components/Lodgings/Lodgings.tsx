@@ -3,6 +3,7 @@ import homeImg from "../../assets/home-img.png";
 import { ILodging } from "../../models/ILodging";
 
 import "./Lodgings.css";
+import "./LodgingsQueries.css";
 
 interface IProps {
   lodgings: ILodging[];

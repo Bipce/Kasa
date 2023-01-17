@@ -1,14 +1,16 @@
 import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
+
 import "./Header.css";
+import "./HeaderQueries.css";
 
 const Header = () => {
   return (
     <>
-      <div className="navbar">
+      <nav className="navbar">
         <img src={logo} alt="logo" className="logo" />
         <ul className="primary-color link">
-          <li className="home-link">
+          <li>
             <Link to="/" className="primary-color">
               ACCUEIL
             </Link>
@@ -19,7 +21,7 @@ const Header = () => {
             </Link>
           </li>
         </ul>
-      </div>
+      </nav>
     </>
   );
 };

@@ -1,0 +1,21 @@
+@media screen and (min-width: 1025px) {
+  .navbar {
+    margin: 40px 100px 0;
+  }
+
+  .logo {
+    width: 210px;
+  }
+
+  .link {
+    font-size: 24px;
+  }
+
+  .link li:first-child {
+    margin-right: 57px;
+  }
+
+  .link li:hover {
+    text-decoration: underline;
+  }
+}

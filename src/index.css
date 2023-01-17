@@ -45,11 +45,6 @@ img {
   height: calc(100vh - 83px);
 }
 
-.main-wrapper {
-  position: relative;
-  margin: 0 20px;
-}
-
 /* Colors */
 .primary-color {
   color: #ff6060;
