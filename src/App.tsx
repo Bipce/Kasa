@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import Header from "./components/Header/Header";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home";
 import Lodging from "./pages/Losging";
 import About from "./pages/About";
@@ -12,13 +12,15 @@ const App = () => {
     <div className="container">
       <Router>
         <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/lodging" element={<Lodging />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/error" element={<Error />} />
-        </Routes>
-        <Footer />
+        <div className="scroll-container">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/lodging" element={<Lodging />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/error" element={<Error />} />
+          </Routes>
+          <Footer />
+        </div>
       </Router>
     </div>
   );

@@ -1,7 +1,54 @@
+.top-section {
+  position: relative;
+  height: 111px;
+}
+
 .home-img {
   position: absolute;
-  width: 335px;
+  width: 100%;
   height: 111px;
-  left: 20px;
-  top: 83px;
+  border-radius: 10px;
+  filter: brightness(70%);
+}
+
+.slogan {
+  position: absolute;
+  left: 9%;
+  right: 25%;
+  font-size: 24px;
+  line-height: 100%;
+  height: 111px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+.lodgings-section {
+  margin-top: 22px;
+}
+
+.lodgings-section article {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.lodgings-section img {
+  width: 100%;
+  height: 255px;
+  border-radius: 10px;
+}
+
+.lodgings-section article:hover {
+  filter: brightness(70%);
+}
+
+.lodgings-section figcaption {
+  position: absolute;
+  left: 5.88%;
+  right: 5.88%;
+  top: 73.73%;
+  bottom: 5.88%;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 500;
 }

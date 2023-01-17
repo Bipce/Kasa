@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -6,11 +8,13 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #fff;
 }
 
 code {
@@ -38,7 +42,12 @@ img {
 
 .scroll-container {
   overflow-y: auto;
-  height: calc(100vh - 67px - 60px);
+  height: calc(100vh - 83px);
+}
+
+.main-wrapper {
+  position: relative;
+  margin: 0 20px;
 }
 
 /* Colors */
