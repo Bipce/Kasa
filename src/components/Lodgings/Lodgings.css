@@ -37,23 +37,27 @@
   margin-bottom: 20px;
 }
 
+.lodgings-section article:hover {
+  filter: brightness(70%);
+}
+
 .lodgings-section img {
   width: 100%;
   height: 255px;
   border-radius: 10px;
 }
 
-.lodgings-section article:hover {
-  filter: brightness(70%);
-}
-
 .lodgings-section figcaption {
   position: absolute;
-  left: 5.88%;
-  right: 5.88%;
-  top: 73.73%;
-  bottom: 5.88%;
+  left: 19.71px;
+  right: 19.71px;
+  bottom: 15px;
   font-size: 18px;
   line-height: 25px;
   font-weight: 500;
+  color: #fff;
+  width: fit-content;
+  background-color: rgba(55, 55, 55, 0.5);
+  border-radius: 10px;
+  padding: 5px;
 }

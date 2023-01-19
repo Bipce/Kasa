@@ -21,12 +21,12 @@ const Lodgings: React.FC<IProps> = ({ lodgings }) => {
         {lodgings.map((lodging) => {
           return (
             <article key={lodging.id}>
-              <figure>
-                <Link to={lodging.id}>
+              <Link to={lodging.id}>
+                <figure>
                   <img src={lodging.cover} alt={lodging.title} />
-                </Link>
-              </figure>
-              <figcaption>{lodging.title}</figcaption>
+                </figure>
+                <figcaption>{lodging.title}</figcaption>
+              </Link>
             </article>
           );
         })}

@@ -1,0 +1,17 @@
+.info {
+  margin: 20px;
+}
+
+.info-title {
+  background-color: #ff6060;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5.5px 12px;
+}
+
+.info-text {
+  background-color: #f7f7f7;
+  color: #ff6060;
+  margin-bottom: 20px;
+}

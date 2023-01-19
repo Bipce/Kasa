@@ -13,8 +13,13 @@
 .link {
   display: flex;
   font-size: 12px;
+  line-height: 17px;
 }
 
 .link li:first-child {
   margin-right: 10px;
+}
+
+.link li:hover {
+  text-decoration: underline;
 }

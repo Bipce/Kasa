@@ -14,8 +14,4 @@
   .link li:first-child {
     margin-right: 57px;
   }
-
-  .link li:hover {
-    text-decoration: underline;
-  }
 }

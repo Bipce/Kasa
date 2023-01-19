@@ -49,3 +49,8 @@ img {
 .primary-color {
   color: #ff6060;
 }
+
+/* Pages */
+.header-about {
+  text-align: center;
+}
