@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUser } from "@fortawesome/sharp-solid-svg-icons";
+import { faChevronUp, faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 import { IAboutInfos } from "../../models/IAboutInfos";
 import "./Accordion.css";
@@ -9,7 +9,7 @@ interface IProps {
 }
 
 const Accordion: React.FC<IProps> = ({ aboutInfo }) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isAccordionsOpen, setIsAccorddionsOpen] = useState<Boolean[]>([]);
 
   return (
     <div>
@@ -17,9 +17,26 @@ const Accordion: React.FC<IProps> = ({ aboutInfo }) => {
         {aboutInfo.map((info, i) => {
           return (
             <div key={info.title} className="info">
-              <h2 className="info-title">{info.title}</h2>
-              <FontAwesomeIcon icon={faUser} />
-              <p className="info-text">{info.text}</p>
+              <h2
+                className="info-title"
+                onClick={() => {
+                  const tmp = [...isAccordionsOpen];
+                  tmp[i] = !isAccordionsOpen[i];
+                  setIsAccorddionsOpen(tmp);
+                }}
+              >
+                {info.title}
+
+                <FontAwesomeIcon
+                  icon={isAccordionsOpen[i] ? faChevronUp : faChevronDown}
+                />
+              </h2>
+
+              {isAccordionsOpen[i] ? (
+                <p className="info-text">{info.text}</p>
+              ) : (
+                ""
+              )}
             </div>
           );
         })}

@@ -1,3 +1,7 @@
+.accordion {
+  min-height: calc(100vh - 209px - 83px);
+}
+
 .info {
   margin: 20px;
 }
@@ -8,10 +12,16 @@
   font-size: 14px;
   font-weight: 500;
   padding: 5.5px 12px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
 }
 
 .info-text {
   background-color: #f7f7f7;
   color: #ff6060;
   margin-bottom: 20px;
+  padding: 23px 10px;
+  font-size: 12px;
+  border-radius: 5px;
 }
