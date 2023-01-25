@@ -1,0 +1,36 @@
+@media screen and (min-width: 769px) {
+  .header-about {
+    background: url("../../assets/aboutImgQueries.png");
+  }
+
+  .info {
+    width: 85%;
+    margin: 30px auto;
+  }
+
+  .info-title,
+  .info-text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .header-about {
+    margin: 0 100px;
+  }
+  .info {
+    width: 70%;
+  }
+
+  .info-title,
+  .info-text {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .header-about {
+    background: url("../../assets/aboutImgQueries.png") center center/cover
+      no-repeat;
+  }
+}

@@ -1,5 +1,5 @@
 .accordion {
-  min-height: calc(100vh - 209px - 83px);
+  min-height: calc(100vh - 50vh);
 }
 
 .info {
@@ -24,4 +24,13 @@
   padding: 23px 10px;
   font-size: 12px;
   border-radius: 5px;
+}
+
+/* About Page */
+.header-about {
+  background: url("../../assets/aboutImg.png") center center/cover no-repeat;
+  filter: brightness(70%);
+  height: 223px;
+  border-radius: 10px;
+  margin: 0 20px;
 }

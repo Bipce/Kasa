@@ -13,7 +13,7 @@ const Lodgings: React.FC<IProps> = ({ lodgings }) => {
   return (
     <div className="main-wrapper">
       <section className="top-section">
-        <img src={homeImg} alt="home" className="home-img" />
+        <figure></figure>
         <p className="slogan">Chez vous, partout et ailleurs</p>
       </section>
 

@@ -2,7 +2,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronUp, faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 import { IAboutInfos } from "../../models/IAboutInfos";
+
 import "./Accordion.css";
+import "./AccordionQueries.css";
 
 interface IProps {
   aboutInfo: IAboutInfos[];

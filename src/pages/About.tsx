@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
-import aboutImg from "../assets/aboutImg.png";
 import Accordion from "../components/Accordion/Accordion";
 import { IAboutInfos } from "../models/IAboutInfos";
 import { getAboutInfos } from "../services/getAboutInfos";
+
+import "../components/Accordion/Accordion.css";
 
 const About = () => {
   const [aboutInfo, setAboutInfo] = useState<IAboutInfos[]>();
@@ -17,11 +18,7 @@ const About = () => {
 
   return (
     <>
-      <section className="header-about">
-        <figure>
-          <img src={aboutImg} alt="about" />
-        </figure>
-      </section>
+      <section className="header-about"></section>
 
       <section>
         <Accordion aboutInfo={aboutInfo} />

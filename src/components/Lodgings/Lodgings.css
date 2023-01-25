@@ -8,12 +8,13 @@
   height: 111px;
 }
 
-.home-img {
-  position: absolute;
-  width: 100%;
-  height: 111px;
+.top-section figure {
+  background: url("../../assets/home-img.png") center center/cover no-repeat;
   border-radius: 10px;
   filter: brightness(70%);
+  height: 111px;
+  width: 100%;
+  position: absolute;
 }
 
 .slogan {
