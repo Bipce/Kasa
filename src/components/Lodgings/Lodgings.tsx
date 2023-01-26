@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import homeImg from "../../assets/home-img.png";
 import { ILodging } from "../../models/ILodging";
 
 import "./Lodgings.css";

@@ -54,3 +54,10 @@ img {
 .header-about {
   text-align: center;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1025px) {
+  .scroll-container {
+    height: calc(100vh - 160px);
+  }
+}

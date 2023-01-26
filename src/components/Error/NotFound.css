@@ -1,0 +1,29 @@
+.error-box {
+  text-align: center;
+}
+
+.error-code {
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 136.9px;
+  margin-top: 150px;
+}
+
+.error-sentence {
+  font-size: 18px;
+  line-height: 25.67px;
+  margin-bottom: 133px;
+}
+
+.error-link {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 19.96px;
+  text-decoration: underline;
+  margin-bottom: 145px;
+}
+
+.error-link,
+.error-sentence {
+  font-weight: 500;
+}
