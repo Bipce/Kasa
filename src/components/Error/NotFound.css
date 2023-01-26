@@ -1,4 +1,5 @@
 .error-box {
+  min-height: calc(100vh - 83px - 209px);
   text-align: center;
 }
 

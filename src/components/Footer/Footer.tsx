@@ -5,10 +5,10 @@ import "./FooterQueries.css";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <footer className="footer">
       <img src={logoFooter} alt="logo" />
       <p>&copy; 2020 Kasa. All rights reserved</p>
-    </div>
+    </footer>
   );
 };
 
