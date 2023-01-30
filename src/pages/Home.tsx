@@ -1,15 +1,14 @@
-import { useEffect, useState } from "react";
-import Lodgings from "../components/Lodgings/Lodgings";
+import { useContext, useEffect, useState } from "react";
 import { ILodging } from "../models/ILodging";
-import { getLodgings } from "../services/getLodgings";
+import Lodgings from "../components/Lodgings/Lodgings";
+import { LodgingContext } from "../contexts/LodgingContext";
 
 const Home = () => {
+  const lodgContext = useContext(LodgingContext);
   const [lodgings, setLodgings] = useState<ILodging[]>();
 
   useEffect(() => {
-    (async () => {
-      setLodgings(await getLodgings());
-    })();
+    setLodgings(lodgContext.lodgings);
   }, []);
 
   if (!lodgings) return null;
