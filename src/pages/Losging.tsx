@@ -1,7 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { LodgingContext } from "../contexts/LodgingContext";
 import { ILodging } from "../models/ILodging";
-import { getLodging, getLodgings } from "../services/getLodgings";
 
 import LodgingDetails from "../components/LodgingDetails/LodgingDetails";
 import { useParams } from "react-router-dom";
