@@ -1,46 +1,188 @@
-# Getting Started with Create React App
+# 🏠 Kasa
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/React-18-blue?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-typed-blue?logo=typescript)
+![React Router](https://img.shields.io/badge/React_Router-navigation-red?logo=reactrouter)
+![Create React App](https://img.shields.io/badge/Create_React_App-boilerplate-09D3AC?logo=createreactapp)
 
-## Available Scripts
+## 📖 Overview
 
-In the project directory, you can run:
+Kasa is a React application for browsing lodging listings and viewing detailed property information.
 
-### `yarn start`
+The project was originally based on an existing JavaScript application before being fully refactored to TypeScript in order to improve code quality, maintainability, and data safety.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The refactor focused on:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Full JavaScript → TypeScript migration
+- Strict typing implementation
+- Improved code readability
+- Better component maintainability
+- Safer data handling
+- Cleaner project structure
 
-### `yarn test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧰 Tech Stack
 
-### `yarn build`
+- React
+- Vite
+- TypeScript
+- React Router
+- CSS3
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Quick Start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Install dependencies:
 
-### `yarn eject`
+```bash
+yarn
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Run the development server:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+yarn start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The application runs on:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+http://localhost:5173
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🏗️ Project Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+src/
+│
+├── assets/
+├── components/
+├── contexts/
+├── models/
+├── pages/
+├── services/
+│
+├── App.tsx
+├── index.tsx
+├── index.css
+└── react-app-env.d.ts
+```
+
+### Structure Overview
+
+- assets/ – Static assets and images
+- components/ – Reusable UI components
+- contexts/ – React contexts and shared state
+- models/ – TypeScript interfaces and data models
+- pages/ – Main application pages
+- services/ – Application services and utilities
+- App.tsx – Root application component
+- index.tsx – Application entry point
+- index.css – Global application styles
+- react-app-env.d.ts – TypeScript environment declarations
+
+---
+
+## 🔗 Application Features
+
+Users can:
+
+- Browse lodging listings
+- Access lodging detail pages
+- View lodging information and galleries
+- Navigate through different pages
+- Access error pages for invalid routes
+
+Routing is handled with React Router to provide smooth client-side navigation.
+
+---
+
+## 🔄 TypeScript Refactor
+
+The main goal of the project was to migrate an existing JavaScript codebase to TypeScript.
+
+The refactor included:
+
+- Converting React components from `.jsx` to `.tsx`
+- Adding interfaces and custom types
+- Typing component props
+- Securing application data structures
+- Improving IDE autocomplete and developer experience
+- Reducing potential runtime errors
+
+This migration improved both maintainability and scalability of the project.
+
+---
+
+## 🎨 Frontend Architecture
+
+The application is structured around reusable React components and a modular folder organization.
+
+The project is separated into:
+
+- Reusable UI components
+- Application pages
+- Shared state management with Context API
+- TypeScript models and interfaces
+- Service and utility layers
+
+This structure improves readability, maintainability, and scalability while making the TypeScript migration easier to
+manage.
+
+---
+
+## ⚡ Performance & Maintainability
+
+- Reusable component architecture
+- Strong TypeScript typing
+- Clear folder organization
+- Centralized routing
+- Improved code readability
+
+---
+
+## 📸 Screenshots
+
+<table style="border: none;">
+  <tr style="border: none;">
+    <td align="center" style="border: none;">
+      <strong>Homepage</strong><br><br>
+      <img src="./assets/home-page-preview.png" width="90%" />
+    </td>
+    <td align="center" style="border: none;">
+      <strong>Accommodation Details</strong><br><br>
+      <img src="./assets/lodging-page-preview.png" width="85%" />
+    </td>
+  </tr>
+</table>
+---
+
+## 📈 Possible Next Steps
+
+- Add filtering functionality
+- Improve accessibility
+- Add unit testing
+- Add animations and transitions
+- Improve SEO optimization
+- Deploy the application
+
+---
+
+## 📝 Notes
+
+This project was built as a TypeScript refactor exercise focused on improving an existing React application.
+
+The goal was to practice:
+
+- TypeScript migration
+- Strict typing
+- Component refactoring
+- Frontend architecture
+- Code maintainability
+- Scalable React project organization
+
+The project emphasizes clean and maintainable frontend development practices.
