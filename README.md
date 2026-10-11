@@ -25,7 +25,7 @@ The refactor focused on:
 ## 🧰 Tech Stack
 
 - React
-- Vite
+- Create React App
 - TypeScript
 - React Router
 - CSS3
@@ -49,7 +49,7 @@ yarn start
 The application runs on:
 
 ```bash
-http://localhost:5173
+http://localhost:3000
 ```
 
 ---
@@ -159,16 +159,12 @@ manage.
     </td>
   </tr>
 </table>
+
 ---
 
-## 📈 Possible Next Steps
+## 📊 Project Status
 
-- Add filtering functionality
-- Improve accessibility
-- Add unit testing
-- Add animations and transitions
-- Improve SEO optimization
-- Deploy the application
+The project is complete and is no longer actively developed.
 
 ---
 
