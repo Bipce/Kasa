@@ -87,17 +87,12 @@ src/
 
 ---
 
-## 🔗 Application Features
-
-Users can:
+## ✨ Features
 
 - Browse lodging listings
-- Access lodging detail pages
-- View lodging information and galleries
-- Navigate through different pages
-- Access error pages for invalid routes
-
-Routing is handled with React Router to provide smooth client-side navigation.
+- Lodging detail pages with photo carousel, tags, host and rating
+- About page
+- Custom 404 page
 
 ---
 
